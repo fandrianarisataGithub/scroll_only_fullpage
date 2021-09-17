@@ -86,6 +86,9 @@ function ScrollHandler(pageId) {
       }
     });
 }
-  new ScrollHandler("one");
-  new ScrollHandler("two");
-  new ScrollHandler("three");
+
+  var pages = document.querySelectorAll('.page');
+  for(var i=0; i<pages.length; i++){
+    var id = pages[i].getAttribute("id");
+    new ScrollHandler(id);
+  }
