@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #scroll {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .page {
+    width: 100%;
+    height: 100vh;
+  }
+  p {
+    line-height: 100vh;
+    margin: auto;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+  }
+  p q{
+    line-height: 1em;
+  }
+  p cite {
+    text-align: right;
+  }
+  #one {
+    background: blue;
+  }
+  #two {
+    background: red;
+  }
+  #three {
+    background: green;
+  }
